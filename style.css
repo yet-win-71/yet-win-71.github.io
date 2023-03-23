@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+* {
+    text-align: center;
+}
+.news .new {
+    color: #87ea98;
+}
+
+.news b {
+    color: #888888;
+    display: block;
+    padding-top: 5px;
+}
+
+.news .textnews {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    color: #d7d2d2; 
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+.news .textnews2 {
+    padding-top: 25px;
+}
+
+.btn {
+    background-color: #35ffbf;
+    border-width: 0px;
+    border-radius: 11px;
+    height: 29px;
+    transition-duration: 0.3s;
+    font-family: 'Open Sans';
+    color: #2b6932;
+    margin-top: 1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.lastvideo {
+    border-width: 0px;
+    width: 430px;
+    height: 285px;
+}
+
+h2 {
+    color: #d7d2d2;
+    font-family: 'Open SANS';
+
+}
+b {
+    color: #d7d2d2;
+    font-family: 'Open SANS';
+
+}
+
+h6 {
+    color: #d7d2d2;
+    font-family: 'Open SANS';
+
+}
+
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.btn:hover {
+    -webkit-box-shadow: 0px 0px 30px 18px #35ffbf;
+    -moz-box-shadow: 0px 0px 30px 18px #35ffbf;
+    box-shadow: 0px 0px 10px 5px #35ffbf;
+}
+
+.btn:active {
+    background-color: #20c993;
+}
